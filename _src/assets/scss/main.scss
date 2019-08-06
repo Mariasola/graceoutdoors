@@ -1,2 +1,9 @@
 @import "core/settings";
-@import "core/_header";
+@import "layout/_header";
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.body {
+  background-color: rgb(249, 199, 190);
+}
