@@ -9,51 +9,52 @@
   color: #f1edee;
   overflow: hidden;
   .upper--img {
+    background: url(../images/trees.png) no-repeat bottom;
     position: absolute;
     height: 100%;
     width: 100%;
-    z-index: -1;
-    background: url(../images/front.png) no-repeat bottom;
-    background-size: cover;
+    background-size: contain;
+    background-position-y: bottom;
+  }
+  .mid--img__high {
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    background: url(../images/forest.png) no-repeat;
+    background-size: contain;
+    background-position-y: bottom;
+  }
+  .mid--img__low {
+    width: 100%;
+    height: 572px;
+    position: absolute;
+    background-size: contain;
+    background: url(../images/mountain.png) no-repeat;
+    background-size: contain;
+  }
+  .bottom--img {
+    left: 50%;
+    top: 100px;
+    width: 446px;
+    height: 342px;
+    position: absolute;
+    background: url(../images/sun_bottom.png) no-repeat;
+    background-size: contain;
   }
   .text-wrap {
     margin-left: 10%;
+    position: absolute;
   }
 }
-@media (min-width: 768px) and (orientation: landscape) {
+@media (min-width: 768px) {
   .wrapper--hero__image {
     .upper--img {
-      width: 94%;
-      background: url(../images/front.png) no-repeat bottom;
-      position: absolute;
-      z-index: -2;
-      background-size: cover;
     }
     .mid--img__high {
-      width: 100%;
-      height: 450px;
-      position: absolute;
-      z-index: -3;
-      background: url(../images/second-front.png) no-repeat;
-      background-size: cover;
     }
     .mid--img__low {
-      width: 100%;
-      height: 472px;
-      position: absolute;
-      z-index: -4;
-      background: url(../images/middle-front.png) no-repeat;
-      background-size: cover;
     }
     .bottom--img {
-      left: 50%;
-      top: 100px;
-      width: 446px;
-      height: 342px;
-      position: absolute;
-      z-index: -5;
-      background: url(../images/back.png) no-repeat;
-      background-size: cover;
     }
   }
 }
