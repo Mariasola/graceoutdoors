@@ -1,4 +1,4 @@
-![Adalab](_src/assets/images/trees.png)
+
 # Grace Outdoors CSS experiment
 This is a CSS experiment to overlap png illustrations and adapt the exact same landscape in all devices. 
 
